@@ -22,6 +22,7 @@ import AdminMessageDetail from './pages/admin/messages/AdminMessageDetail';
 import AdminMedia from './pages/admin/media/AdminMedia';
 import AdminSettings from './pages/admin/settings/AdminSettings';
 import AdminProfile from './pages/admin/settings/AdminProfile';
+import AdminCorporate from './pages/admin/corporate/AdminCorporate';
 
 function App() {
   return (
@@ -60,7 +61,10 @@ function App() {
           
           {/* Medya */}
           <Route path="media" element={<AdminMedia />} />
-          
+
+          {/* Kurumsal */}
+          <Route path="corporate" element={<AdminCorporate />} />
+
           {/* Ayarlar */}
           <Route path="settings">
             <Route index element={<AdminSettings />} />

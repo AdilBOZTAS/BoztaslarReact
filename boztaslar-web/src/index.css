@@ -23,3 +23,9 @@ body {
   min-height: 100vh;
   background-color: white;
 }
+
+@layer base {
+  input, select, textarea {
+    @apply text-gray-900;
+  }
+}

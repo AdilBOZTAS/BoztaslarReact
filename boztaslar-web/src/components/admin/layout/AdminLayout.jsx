@@ -38,6 +38,11 @@ const mainMenu = [
     path: '/admin/media'
   },
   {
+    name: 'Kurumsal',
+    icon: ImageIcon,
+    path: '/admin/corporate'
+  },
+  {
     name: 'Ayarlar',
     icon: Settings,
     path: '/admin/settings'
